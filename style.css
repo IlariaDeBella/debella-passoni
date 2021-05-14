@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /* ! style di base */
 
+=======
+/* stile di base */
+>>>>>>> d6a3e41ca3c29c7a5325555bb1feaf930530a061
 body{font-family: 'Inter', sans-serif;font-size: 16px;}
 
 a{text-decoration: none;}
@@ -23,6 +27,7 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 
 }
 
+<<<<<<< HEAD
 
 
 /* ! header */
@@ -51,3 +56,30 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 .menu li a{color: #fff;padding: 15px;display: block;}
 
 .hamburger{display: none;}
+=======
+/* header */
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    display: flex;
+    max-width: 1350px;
+  }
+  
+  .logo{z-index: 1}
+  
+  .menu{
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .menu li{display: inline-block;}
+  .menu li a{color: #fff;padding: 15px;display: block;}
+  
+  .hamburger{display: none;}
+>>>>>>> d6a3e41ca3c29c7a5325555bb1feaf930530a061
