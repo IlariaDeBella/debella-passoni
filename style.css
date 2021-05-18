@@ -17,26 +17,24 @@ h1, h2, h3, p{color: black; padding-bottom: 30px;}
 }
 
 .menu{
-  
     width: 100%;
-
 }
-.menu li{display: inline-block;}
-.menu li a{color:black;padding: 25px;display: block;}
 
+.menu li{display: inline-block;}
+.menu li a{color:black;padding: 25px;display: block; font-size: 20px;}
 
 body{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #slider{
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
-    
+    padding-top: 200px;   
 }
 #img_slider{
     width: 100%;
@@ -59,6 +57,8 @@ body{
     cursor: pointer;
     outline: none;
     transition: all 0.15 ease-in-out;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #slider button:hover{
@@ -67,3 +67,4 @@ body{
 #slider button:active{
     transform: scale(0.95);
 }
+
