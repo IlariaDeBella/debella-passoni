@@ -7,7 +7,7 @@ h1, h2, h3, p{color: black; padding-bottom: 30px;}
 .small-text{font-size: 14px;}
 
 .header{
-    border: 1px solid burlywood;
+    background-color: burlywood;
     width: 100%;
     position: fixed;
     top:0;
@@ -15,8 +15,6 @@ h1, h2, h3, p{color: black; padding-bottom: 30px;}
     padding: 20px;
     display: flex;
 }
-
-
 
 .menu{
   
