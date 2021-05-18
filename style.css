@@ -12,7 +12,8 @@ h1, h2, h3, p{color: black; padding-bottom: 30px;}
     position: fixed;
     top:0;
     left: 0;
-    padding: 20px;
+    right: 0;
+    padding: 0px;
     display: flex;
     border: solid 1px black;
 }
@@ -28,14 +29,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 #slider{
-    width: 60%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;   
+    padding-top: 525px;  
+    padding-left: 50px;
+    position: fixed; 
+
 }
 #img_slider{
     width: 100%;
@@ -69,3 +75,22 @@ body{
     transform: scale(0.95);
 }
 
+.footer{
+    
+    border-top: burlywood solid 1px;
+    width: 100%;
+    position: relative;
+    top: 500px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    
+    
+}
+
+.social{
+  width: 100%;
+}
+.social li{display: inline-block;}
+.social li a{color:black;padding: 25px; display: block; font-size: 20px;}
