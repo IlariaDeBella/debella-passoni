@@ -5,7 +5,7 @@ h1, h2, h3, p{color: black; padding-bottom: 30px;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
-.button{padding: 18px 30px; background: burlywood; color: black; border: solid 2px black; display: inline-block;border-radius: 4px; margin-top: 10px;}
+.button{padding: 18px 30px; background: burlywood; color: black; border: solid 2px black; display: inline-block;border-radius: 4px;}
 
 .header{
     background-color: burlywood;
