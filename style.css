@@ -76,19 +76,22 @@ p {
 }
 
 .spessore-menu {
-    height: 100px;
+    height: 150px;
     width: 100%;
     border: 2px solid red;
     margin-top: 0;
     clear: both;
 }
 
+
 #slider {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 350px;
+    
+    
 }
 
 #img_slider {
@@ -117,6 +120,7 @@ p {
     transition: all 0.1s ease-in-out;
     margin-right: 10px;
     margin-left: 10px;
+    
 }
 
 #slider button:hover {
@@ -139,6 +143,7 @@ p {
     right: 0;
     bottom: 0;
     display: flex;
+    
 }
 
 .social {
