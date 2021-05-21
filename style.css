@@ -89,3 +89,49 @@ body{
 }
 .social li{display: inline-block;}
 .social li a{color:black;padding: 25px; display: block; font-size: 20px;}
+
+@media(max-width:779px){
+    #slider{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 450px;  
+        padding-left: 50px;
+        position: fixed; 
+    }
+    #img_slider{
+        width: 100%;
+    }
+    #img_slider img{
+        width: 100%;
+        display: none;
+    }
+    #img_slider img:nth-child(1){
+        display: block;
+    }
+
+}
+
+@media(max-width:370px){
+    #slider{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 410px;  
+        padding-left: 10px;
+        position: fixed; 
+    }
+    #img_slider{
+        width: 100%;
+    }
+    #img_slider img{
+        width: 100%;
+        display: none;
+    }
+    #img_slider img:nth-child(1){
+        display: block;
+    }
+
+}
