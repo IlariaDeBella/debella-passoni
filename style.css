@@ -85,12 +85,10 @@ p {
 
 
 #slider {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 350px;
-    
     
 }
 
@@ -183,4 +181,11 @@ p {
     padding: 25px;
     display: block;
     font-size: 20px;
+}
+
+.container {
+    border: 2px solid red;
+    max-width: 800px;
+    margin: 0 auto;
+
 }
