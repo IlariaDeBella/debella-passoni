@@ -30,15 +30,18 @@ p {
     font-size: 14px;
 }
 
-.iconaaccount {
+
+/*.iconaaccount {
     display: inline-block;
     border-radius: 4px;
-    margin: 15px
+    margin: 15px;
+    width: 5px;
 }
 
 .iconaaccount img {
     height: 5px;
-}
+    width: 5px;
+}*/
 
 .button {
     padding: 18px 30px;
@@ -145,6 +148,43 @@ p {
 
 #slider button:active {
     transform: scale(0.95);
+}
+
+
+/* ! Poster */
+
+.poster {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.poster__img {
+    width: 65%;
+    height: 100%;
+}
+
+.poster__img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.poster__content {
+    width: 35%;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .poster {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .poster__img,
+    .poster__content {
+        width: 100%;
+    }
 }
 
 
