@@ -30,6 +30,16 @@ p {
     font-size: 14px;
 }
 
+.iconaaccount {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 15px
+}
+
+.iconaaccount img {
+    height: 5px;
+}
+
 .button {
     padding: 18px 30px;
     background: burlywood;
