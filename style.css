@@ -53,6 +53,7 @@ p {
 }*/
 
 .button {
+    /*accedi*/
     padding: 18px 30px;
     background: burlywood;
     color: black;
@@ -102,6 +103,7 @@ p {
 /* ! Header */
 
 .header {
+    /*menu*/
     background-color: burlywood;
     width: 100%;
     position: fixed;
@@ -138,10 +140,12 @@ p {
 }
 
 .elenco:hover {
+    /*home,shop,assistenza*/
     color: white;
 }
 
 #slider {
+    /*immagini che scorrono*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -162,6 +166,7 @@ p {
 }
 
 #slider button {
+    /*pulsanti*/
     width: 50px;
     height: 50px;
     background: none;
@@ -188,6 +193,7 @@ p {
 /* ! Poster */
 
 .poster {
+    /*immagini e scritta affiancate*/
     display: flex;
     height: 100vh;
     width: 100%;
@@ -219,6 +225,7 @@ p {
 }
 
 .casella {
+    /*parte scritta*/
     background-color: burlywood;
     color: black;
     border: solid 2px black;
@@ -244,6 +251,7 @@ p {
 /* ! Footer */
 
 .footer {
+    /*contatti alla fine*/
     border-top: burlywood solid 1px;
     width: 100%;
     position: relative;
@@ -293,14 +301,8 @@ p {
     font-size: 20px;
 }
 
-.container {
-    border: 2px solid red;
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-
-/* !SHOP*/
+/* SHOP*/
 
 
 /* Panel Blue */
