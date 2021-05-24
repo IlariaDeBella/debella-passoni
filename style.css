@@ -91,6 +91,12 @@ p {
     justify-content: center;
     
 }
+.container {
+    border: 2px solid red;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
 
 #img_slider {
     width: 100%;
@@ -183,9 +189,4 @@ p {
     font-size: 20px;
 }
 
-.container {
-    border: 2px solid red;
-    max-width: 800px;
-    margin: 0 auto;
 
-}
