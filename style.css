@@ -389,3 +389,30 @@ p {
     background: cornsilk;
     color: black;
 }
+
+
+/* Panel Blue */
+
+.panel-blue {
+    width: 100%;
+    background: #4bb1e9;
+    padding: 100px 30px;
+}
+
+.panel-blue__text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 250px;
+    width: 250px;
+    background: #6adf91;
+    border-radius: 100%;
+    line-height: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
