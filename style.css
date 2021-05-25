@@ -95,6 +95,7 @@ h3 {
     display: flex;
     border-bottom: solid 3px black;
     height: 89px;
+    justify-content: space-between;
 }
 
 .menu {
@@ -245,7 +246,7 @@ h3 {
     border-top: burlywood solid 1px;
     width: 100%;
     position: relative;
-    top: 500px;
+    top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -412,6 +413,8 @@ h3 {
     display: flex;
     align-items: center;
     text-align: justify;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .dot {
@@ -423,8 +426,10 @@ h3 {
     align-items: center;
     display: inline-block;
     margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.555);
     color: white;
+    flex-basis: 25%;
+    padding: 5px;
+    margin-right: 2%;
 }
 
 .dot:hover {
