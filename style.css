@@ -388,6 +388,7 @@ p {
 .sub-menu a:hover {
     background: cornsilk;
     color: black;
+    
 }
 
 
@@ -415,4 +416,33 @@ p {
     display: inline-block;
     margin-right: 40px;
     margin-bottom: 40px;
+}
+.top{
+    font-weight: bold;
+    
+}
+.contenitore {
+    border: solid burlywood 2px;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+      
+}
+.contenitore ul{
+    float: left;
+    margin-top: 130px;
+    margin-left: 80px;
+    
+    
+}
+.down{
+    padding-top: 10px;
+    font-style: oblique;
+    color: black;
+}
+.down :hover{
+    
+    color: burlywood;
+    transform: scale(1.05);
 }
