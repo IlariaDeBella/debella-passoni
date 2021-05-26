@@ -490,3 +490,53 @@ h3 {
         flex-wrap: wrap
     }
 }
+
+
+/*CONTATTI*/
+
+.poster__content {
+    width: 35%;
+    padding: 50px;
+}
+
+.poster__video video {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.poster {
+    /*immagini e scritta affiancate*/
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    font-size: medium;
+}
+
+.poster__content {
+    width: 35%;
+    padding: 50px;
+}
+
+.contact {
+    /*parte scritta*/
+    color: black;
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .poster {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .poster__img,
+    .poster__content {
+        width: 100%;
+    }
+}
