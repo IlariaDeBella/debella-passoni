@@ -394,6 +394,7 @@ h3 {
 .sub-menu a:hover {
     background: cornsilk;
     color: black;
+    
 }
 
 
@@ -426,6 +427,38 @@ h3 {
     align-items: center;
     display: inline-block;
     margin-bottom: 40px;
+
+}
+.top{
+    font-weight: bold;
+    
+}
+.contenitore {
+    border: solid burlywood 2px;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+      
+}
+.contenitore ul{
+    float: left;
+    margin-top: 130px;
+    margin-left: 80px;
+    
+    
+}
+.down{
+    padding-top: 10px;
+    font-style: oblique;
+    color: black;
+}
+.down :hover{
+    
+    color: burlywood;
+    transform: scale(1.05);
+}
+
     color: white;
     flex-basis: 25%;
     padding: 5px;
@@ -461,3 +494,4 @@ h3 {
         flex-wrap: wrap
     }
 }
+
