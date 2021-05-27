@@ -40,7 +40,24 @@
 
     </div>
 
-    <div class="spessore-menu"></div>
+    
+    <div class="VideoIscriviti">
+    
+        <div class="VideoIscriviti__content">
+            <ul><h3 class="normal-text">nome:</h3><input type="text" name="indirizzo" ></ul>
+            <ul><h3 class="normal-text">cognome:</h3><input type="text"></ul>
+            <ul><h3 class="normal-text">indirizzo e-mail:</h3><input type="text" name="indirizzo" ></ul>
+            <ul><h3 class="normal-text">password:</h3><input type="password"><button onclick="lavatrice()">login</button></ul>
+        </div>
+        <video autoplay muted loop id="VideoIscriviti">
+            <source src="../immagini/VideoIscriviti.mp4" type="video/mp4">
+          </video>
+    </div>
+    <script>
+        function lavatrice(){
+            document.write("azione avvenuta con successo, tornare nella home premendo la freccina in alto a sinistra");
+        
+        }</script>
 </body>
 
 </html>

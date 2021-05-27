@@ -96,6 +96,7 @@ h3 {
     border-bottom: solid 3px black;
     height: 89px;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .menu {
@@ -428,39 +429,124 @@ h3 {
     margin-bottom: 40px;
 }
 
-.top {
+.VideoAccedi h3 {
     font-weight: bold;
-}
-
-.contenitore {
-    border: solid burlywood 2px;
-    width: 70%;
-    height: 300px;
     margin: 0 auto;
-    margin-top: 60px;
-}
-
-.contenitore ul {
-    float: left;
-    margin-top: 130px;
-    margin-left: 80px;
-}
-
-.down {
-    padding-top: 10px;
-    font-style: oblique;
-    color: black;
-}
-
-.down :hover {
+    z-index: 1;
     color: burlywood;
-    transform: scale(1.05);
-    color: white;
-    flex-basis: 25%;
-    padding: 5px;
-    margin-right: 2%;
+    float: left;
+
+}
+.VideoAccedi ul {
+    font-weight:bold;
+    margin: 0 auto;
+    z-index: 1;
+    color: black;
+
+}
+.VideoAccedi{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+   
+}
+.VideoAccedi::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity: 0.5;
+}
+.VideoAccedi__content{
+    border: 2px burlywood solid;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+      
+}
+#VideoAccedi{
+    position: absolute;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+.VideoAccedi__content ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
+
+.passdim{
+    margin-bottom: 20px;
+    font-style: oblique;
+    color: burlywood;
+    z-index: 1;
+    
+}
+
+.passdim :hover {
+    color: burlywood;
+    transform: scale(1.05);  
+}
+
+@media (max-width: 863px) {
+    .VideoAccedi h3 {
+        font-weight: bold;
+        margin: 0 auto;
+        z-index: 1;
+        color: burlywood;
+        width: 100%;
+    
+    }
+    .VideoAccedi__content{
+        border: 2px burlywood solid;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+          
+    }
+
+}
+.cont1{
+    border: solid 1px red;
+    float:left;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont1 ul{
+    width: 100%;
+    margin: 0 auto;
+}
+.cont2{
+    border: solid 1px red;
+    
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cont2 ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
 .dot:hover {
     background-color: burlywood;
     border: solid black 2px;
@@ -540,3 +626,47 @@ h3 {
         width: 100%;
     }
 }
+
+.VideoIscriviti{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+   
+}
+.VideoIscriviti::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity: 0.5;
+}
+.VideoIscriviti__content{
+    border: 2px burlywood solid;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+   
+    
+}
+#VideoIscriviti{
+    position: absolute;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+.VideoIscriviti__content ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.VideoIscriviti__content h3{color: burlywood;}
