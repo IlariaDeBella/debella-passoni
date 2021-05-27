@@ -518,10 +518,13 @@ h3 {
 .poster__content {
     width: 35%;
     padding: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .poster__video video {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 500px;
 }
