@@ -456,6 +456,7 @@ h3 {
     z-index: 1;
     color: burlywood;
     float: left;
+    margin-top: 100px;
 
 }
 .VideoAccedi ul {
@@ -509,7 +510,7 @@ h3 {
 
 
 .passdim{
-    margin-bottom: 20px;
+    margin-right: 20px;
     font-style: oblique;
     color: burlywood;
     z-index: 1;
