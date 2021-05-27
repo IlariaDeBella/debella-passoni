@@ -321,11 +321,40 @@ h3 {
     .menu--open {
         right: 0%;
     }
-   
+    /*#iconmenu{
+        display: block;
+        margin-left: 50px;
+    } */
 }
 
 
+/*#mobilemenu {
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.sezionemobile {
+    width: 130px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.sezionemobile:hover {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 
 .sub-menu {
     position: absolute;
@@ -375,7 +404,7 @@ h3 {
 
 .panel-blue {
     width: 100%;
-    background:  rgba(222, 184, 135, 0.671);;
+    background: rgba(222, 184, 135, 0.671);
     padding-top: 100px;
 }
 
@@ -408,18 +437,13 @@ h3 {
     width: 70%;
     height: 300px;
     margin: 0 auto;
-    margin-top: 40px;
-    position: flex;
-    text-align: center;
-    align-items: center;
-    display: inline-block;
-
+    margin-top: 60px;
 }
 
 .contenitore ul {
-   padding-top: 50px;
-    
-    
+    float: left;
+    margin-top: 130px;
+    margin-left: 80px;
 }
 
 .down {
@@ -431,6 +455,7 @@ h3 {
 .down :hover {
     color: burlywood;
     transform: scale(1.05);
+    color: white;
     flex-basis: 25%;
     padding: 5px;
     margin-right: 2%;
@@ -514,80 +539,4 @@ h3 {
     .poster__content {
         width: 100%;
     }
-}
-.cont1{
-    border: solid red 1px;
-    width: 40%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float:left;
-}
-.cont1 ul{
-    width: 100%;
-    width: 100%;
-    
-}
-
-.cont2{
-    border: solid red 1px;
-    width: 50%;
-    height: 100px;
-    float: right;
-    margin: auto 0;
-    margin-top: 70px;
-
-}
-.cont3{
-    border: solid red 1px;
-    width: 50%;
-    height: 100px;
-    float: right;
-    margin: auto 0;
-
-}
-.cont4{
-    border: solid red 1px;
-    width: 50%;
-    height: 100px;
-    float: right;
-    margin: auto 0;
-}
-@media (max-width: 720px) {
-    .cont1{
-        border: solid red 1px;
-        width: 100%;
-        height: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        
-    }
-  
-    .cont2{
-        border: solid red 1px;
-        width: 100%;
-        height: 100px;
-        float: right;
-        margin: auto 0;
-        margin-top: 70px;
-    }
-    .cont3{
-        border: solid red 1px;
-        width: 100%;
-        height: 100px;
-        float: right;
-        margin: auto 0;
-    
-    }
-    .cont4{
-        border: solid red 1px;
-        width: 100%;
-        height: 100px;
-        float: right;
-        margin: auto 0;
-    }
-   
 }
