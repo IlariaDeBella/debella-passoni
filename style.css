@@ -97,6 +97,7 @@ h3 {
     padding: 0px;
     display: flex;
     border-bottom: solid 3px black;
+
     height: 89px;
     justify-content: space-between;
     z-index: 1;
@@ -126,7 +127,6 @@ h3 {
 .spessore-menu {
     height: 150px;
     width: 100%;
-    border: 2px solid red;
     margin-top: 0;
     clear: both;
 }
@@ -155,7 +155,6 @@ h3 {
 }
 
 .container {
-    border: 2px solid red;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -213,7 +212,7 @@ h3 {
     width: 800px;
     height: 600px;
     align-items: center;
-    border: solid red 2px;
+   
 }
 
 .poster__img img {
@@ -229,7 +228,7 @@ h3 {
 
 .spazio {
     margin: 25px;
-    border: solid red 2px;
+    border: solid burlywood 2px;
 }
 
 .casella {
@@ -269,12 +268,12 @@ h3 {
     height: 70px;
     line-height: 70px;
     margin: 20px auto;
-    background-color: rgba(222, 184, 135, 0.671);
+    background-color:black;
     font-size: 20px;
     letter-spacing: 0.2em;
 }
 
-
+.sconto p{color:burlywood}
 /*Footer*/
 
 .footer {
@@ -351,9 +350,13 @@ h3 {
         top: 0;
         right: -100%;
         background: #000;
+        opacity: 0.5;
         height: 100vh;
         padding-top: 80px;
-        opacity: 0.8;
+        transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+        z-index: 0;
+        
+        
     }
     .menu li {
         display: block;
@@ -394,6 +397,15 @@ h3 {
         color: burlywood;
         transform: scale(1.1);
     }
+    .VideoAccedi__content {
+        border: 2px burlywood solid;
+        margin: 0 auto;
+        width: 70%;
+        height: 200px;
+        z-index: 80;
+        position: relative;
+    }
+    
     
   
 }
@@ -489,10 +501,11 @@ h3 {
 
 .panel-blue {
     width: 100%;
-    background: rgba(222, 184, 135, 0.671);
+   
     padding-top: 100px;
-    border: solid red 1px;
-    
+    border: solid black 2px;
+ 
+   
     
 }
 
@@ -503,6 +516,8 @@ h3 {
     text-align: justify;
     box-sizing: border-box;
     flex-wrap: wrap;
+    color:burlywood;
+   
 }
 
 .dot {
@@ -515,12 +530,12 @@ h3 {
     display: inline-block;
     margin-bottom: 40px;
     margin-left: 2%;
-    border: 1px red solid;
+    border: 2px burlywood solid;
 }
 
 .dot:hover {
     background-color: burlywood;
-    border: solid black 2px;
+    border: solid burlywood 3px;
     text-decoration: underline solid black 2px;
     text-decoration: bold solid black;
     transform: scale(1.05);
@@ -571,12 +586,12 @@ h3 {
 
 /*ACCEDI*/
 
+
 .VideoAccedi h3 {
     font-weight: bold;
     margin: 0 auto;
     z-index: 1;
     color: burlywood;
-    float: left;
     margin-top: 100px;
 }
 
@@ -584,7 +599,7 @@ h3 {
     font-weight: bold;
     margin: 0 auto;
     z-index: 1;
-    color: black;
+    color: burlywood;
 }
 
 .VideoAccedi {
@@ -594,6 +609,7 @@ h3 {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 .VideoAccedi::after {
@@ -611,15 +627,14 @@ h3 {
 .VideoAccedi__content {
     border: 2px burlywood solid;
     margin: 0 auto;
-    width: 50%;
-    position: relative;
+    width: 70%;
+    height: 200px;
     z-index: 1;
+    position: relative;
 }
 
 #VideoAccedi {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
@@ -633,30 +648,19 @@ h3 {
 .passdim {
     margin-right: 20px;
     font-style: oblique;
-    color: burlywood;
     z-index: 1;
+    text-decoration: none;
 }
+.passdim a{color:burlywood}
 
 .passdim :hover {
-    color: burlywood;
+    color: cornsilk;
     transform: scale(1.05);
 }
 
-@media (max-width: 863px) {
-    .VideoAccedi h3 {
-        font-weight: bold;
-        margin: 0 auto;
-        z-index: 1;
-        color: burlywood;
-        width: 100%;
-    }
-    .VideoAccedi__content {
-        border: 2px burlywood solid;
-        width: 100%;
-        position: relative;
-        z-index: 1;
-        margin: 0 auto;
-    }
+@media (max-width: 768px) {
+   
+    
 }
 
 .cont1 {
