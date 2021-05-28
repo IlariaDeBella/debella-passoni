@@ -29,6 +29,7 @@ h3 {
 .big-text {
     font-size: 70px;
     font-weight: 900;
+    width: 100%;
 }
 
 .med-text {
@@ -239,6 +240,11 @@ h3 {
     padding-top: 10px;
 }
 
+.casella p {
+    font-family: "Mate SC script=latin rev=2";
+    letter-spacing: 0.2em;
+}
+
 @media (max-width: 768px) {
     .poster {
         flex-wrap: wrap;
@@ -248,6 +254,20 @@ h3 {
     .poster__content {
         width: 100%;
     }
+}
+
+
+/*sconti*/
+
+.sconto {
+    width: 100%;
+    font-family: "Mate SC script=latin rev=2";
+    height: 70px;
+    line-height: 70px;
+    margin: 20px auto;
+    background-color: rgba(222, 184, 135, 0.671);
+    font-size: 20px;
+    letter-spacing: 0.2em;
 }
 
 
@@ -468,10 +488,24 @@ h3 {
 
 .dot p {
     font-weight: 900;
+    letter-spacing: 0.2em;
+    margin: 2px;
 }
 
 .colreveal {
     padding-left: 10%;
+}
+
+.join {
+    width: 100%;
+    font-family: "Mate SC script=latin rev=2";
+    height: 70px;
+    line-height: 70px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2em;
 }
 
 @media (max-width: 768px) {
@@ -625,16 +659,17 @@ h3 {
 }
 
 .contatti {
-    display: inline-flex;
+    display: block;
 }
 
 .box {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-align: justify;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+    width: 32%;
+    text-align: initial;
+    margin: auto;
+    text-align: center;
+    float: left;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .contatti p {
@@ -643,7 +678,7 @@ h3 {
 
 .contatti h3 {
     display: inline-flex;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 @media (max-width: 768px) {
@@ -651,7 +686,7 @@ h3 {
         flex-wrap: wrap;
         height: auto;
     }
-    .boxcontatti {
+    .box {
         width: 100%;
     }
     .poster__video {
