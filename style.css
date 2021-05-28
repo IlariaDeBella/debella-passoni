@@ -501,7 +501,7 @@ h3 {
 
 .panel-blue {
     width: 100%;
-   
+   background: burlywood;
     padding-top: 100px;
     border: solid black 2px;
  
@@ -530,12 +530,12 @@ h3 {
     display: inline-block;
     margin-bottom: 40px;
     margin-left: 2%;
-    border: 2px burlywood solid;
+    border: 2px black solid;
 }
 
 .dot:hover {
     background-color: burlywood;
-    border: solid burlywood 3px;
+    border: solid black 3px;
     text-decoration: underline solid black 2px;
     text-decoration: bold solid black;
     transform: scale(1.05);
