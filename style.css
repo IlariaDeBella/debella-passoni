@@ -101,6 +101,9 @@ h3 {
     justify-content: space-between;
     z-index: 1;
 }
+.logo{
+    z-index: 1;
+}
 
 .menu {
     width: 100%;
@@ -138,6 +141,7 @@ h3 {
     color: white;
     transform: scale(1.1);
 }
+
 
 
 /*Slider*/
@@ -334,6 +338,9 @@ h3 {
     margin-right: 0px;
     display: none;
 }
+.hamburger{
+    display: none;
+}
 
 @media (max-width: 768px) {
     .cta {
@@ -346,21 +353,49 @@ h3 {
         background: #000;
         height: 100vh;
         padding-top: 80px;
+        opacity: 0.8;
     }
     .menu li {
         display: block;
+       
+        
+    }
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+    .hamburger span{
+        background:#fff;
+        height: 3px;
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
     }
     .menu li a {
         padding: 15px 30px;
         font-size: 20px;
+        color: #fff;
     }
     .menu--open {
         right: 0%;
     }
-    /*#iconmenu{
-        display: block;
-        margin-left: 50px;
-    } */
+    .sub-menu {
+        display: none;
+    }
+   
+    
+    
+    .elenco:hover {
+        /*home,shop,assistenza*/
+        color: burlywood;
+        transform: scale(1.1);
+    }
+    
+  
 }
 
 
