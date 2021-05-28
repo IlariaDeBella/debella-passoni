@@ -135,7 +135,7 @@ h3 {
 .elenco:hover {
     /*home,shop,assistenza*/
     color: white;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 
@@ -285,7 +285,7 @@ h3 {
 }
 
 .social li a:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 #img_slider {
@@ -436,6 +436,9 @@ h3 {
     width: 100%;
     background: rgba(222, 184, 135, 0.671);
     padding-top: 100px;
+    border: solid red 1px;
+    
+    
 }
 
 .panel-blue__text {
@@ -457,6 +460,7 @@ h3 {
     display: inline-block;
     margin-bottom: 40px;
     margin-left: 2%;
+    border: 1px red solid;
 }
 
 .dot:hover {
@@ -464,6 +468,7 @@ h3 {
     border: solid black 2px;
     text-decoration: underline solid black 2px;
     text-decoration: bold solid black;
+    transform: scale(1.05);
 }
 
 .dot p {
