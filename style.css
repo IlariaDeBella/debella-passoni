@@ -86,7 +86,9 @@ h3 {
     border-bottom: solid 3px black;
     height: 89px;
     justify-content: space-between;
-    z-index: 3;
+    z-index: 5;
+  
+   
 }
 
 .logo {
@@ -95,6 +97,7 @@ h3 {
 
 .menu {
     width: 100%;
+   
 }
 
 .menu li {
@@ -102,6 +105,8 @@ h3 {
     text-transform: uppercase;
     position: relative;
     font-size: 14px;
+  
+    
 }
 
 .menu li a {
@@ -109,6 +114,8 @@ h3 {
     padding: 25px;
     display: block;
     font-size: 20px;
+  
+  
 }
 
 .spessore-menu {
@@ -121,12 +128,15 @@ h3 {
 .elenco {
     transition: all 1s ease;
     font-size: normal;
+    
 }
 
 .elenco:hover {
     /*home,shop,assistenza*/
     color: white;
     transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+    
 }
 
 
@@ -163,7 +173,7 @@ h3 {
     width: 50px;
     height: 50px;
     background: none;
-    border: solid 2px burlywood;
+    border: solid 2px darkkhaki;
     border-radius: 25px;
     font-size: 40px;
     color: black;
@@ -213,13 +223,13 @@ h3 {
 
 .spazio {
     margin: 25px;
-    border: solid burlywood 2px;
+    border: solid burlywood 3px;
     background-color: burlywood;
 }
 
 .casella {
     /*parte scritta*/
-    background-color: burlywood;
+    background-color: darkkhaki;
     color: black;
     border: solid 2px black;
     display: inline-block;
@@ -299,6 +309,8 @@ h3 {
 
 .social li a:hover {
     transform: scale(1.1);
+    color: darkkhaki;
+    transition: all 0.1s ease-in-out;
 }
 
 #img_slider {
@@ -378,7 +390,6 @@ h3 {
     }
     .elenco:hover {
         /*home,shop,assistenza*/
-        color: burlywood;
         transform: scale(1.1);
     }
     .VideoAccedi__content {
@@ -471,6 +482,7 @@ h3 {
     background: cornsilk;
     color: black;
     transform: scale(0.8);
+    transition: all 0.1s ease-in-out;
 }
 
 
@@ -481,7 +493,7 @@ h3 {
 
 .panel-blue {
     width: 100%;
-    background: burlywood;
+    background: darkkhaki;
     padding-top: 100px;
     border: solid black 2px;
 }
@@ -601,7 +613,7 @@ h3 {
     font-weight: bold;
     margin: 0 auto;
     z-index: 1;
-    color: burlywood;
+    color: darkkhaki;
 }
 
 .VideoAccedi {
@@ -627,7 +639,7 @@ h3 {
 }
 
 .VideoAccedi__content {
-    border: 2px burlywood solid;
+    border: 2px darkkhaki solid;
     margin: 0 auto;
     width: 70%;
     height: 200px;
@@ -655,7 +667,7 @@ h3 {
 }
 
 .passdim a {
-    color: burlywood
+    color: darkkhaki;
 }
 
 .passdim :hover {
@@ -771,7 +783,7 @@ h3 {
 }
 
 .VideoIscriviti__content {
-    border: 2px burlywood solid;
+    border: 2px darkkhaki solid;
     margin: 0 auto;
     width: 50%;
     position: relative;
@@ -793,15 +805,19 @@ h3 {
 }
 
 .VideoIscriviti__content h3 {
-    color: burlywood;
+    color: darkkhaki;
 }
 .immaginona{
     width: 100%;
     height: 500px;
     display: flex;
     align-items: center;   
-    text-align: center;
     overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+  
    
 }
 .immaginona img{
@@ -824,12 +840,44 @@ h3 {
     opacity: 0.5;
 }
 .immaginona h3{
-    color:burlywood;
+    color: darkkhaki;
     z-index: 1;
     background-image: url('img1assistenza.jpeg');
     background-repeat: no-repeat;
-    text-align: center;
-    margin: 0;
+    margin-top: 50px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+ 
+   
+
+    
+}
+.ricerca{
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+
+    
+
+}
+
+.ricerca input[type="text"]{
+    width: 100%;
+    padding: 20px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+    color: darkkhaki;
+    border: darkkhaki solid 1px;
+    border-radius: 40px;
+    outline: none;
+}
+
+.ricerca button{
+    background: darkkhaki;
+
     
 }
