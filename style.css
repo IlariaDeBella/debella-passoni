@@ -45,19 +45,6 @@ h3 {
 }
 
 
-/*.iconaaccount {
-    display: inline-block;
-    border-radius: 4px;
-    margin: 15px;
-    width: 5px;
-}
-
-.iconaaccount img {
-    height: 5px;
-    width: 5px;
-}*/
-
-
 /*HOME*/
 
 .button {
@@ -97,12 +84,12 @@ h3 {
     padding: 0px;
     display: flex;
     border-bottom: solid 3px black;
-
     height: 89px;
     justify-content: space-between;
     z-index: 3;
 }
-.logo{
+
+.logo {
     z-index: 1;
 }
 
@@ -141,7 +128,6 @@ h3 {
     color: white;
     transform: scale(1.1);
 }
-
 
 
 /*Slider*/
@@ -212,7 +198,6 @@ h3 {
     width: 800px;
     height: 600px;
     align-items: center;
-   
 }
 
 .poster__img img {
@@ -229,6 +214,7 @@ h3 {
 .spazio {
     margin: 25px;
     border: solid burlywood 2px;
+    background-color: burlywood;
 }
 
 .casella {
@@ -268,12 +254,16 @@ h3 {
     height: 70px;
     line-height: 70px;
     margin: 20px auto;
-    background-color:black;
+    background-color: black;
     font-size: 20px;
     letter-spacing: 0.2em;
 }
 
-.sconto p{color:burlywood}
+.sconto p {
+    color: burlywood
+}
+
+
 /*Footer*/
 
 .footer {
@@ -337,7 +327,8 @@ h3 {
     margin-right: 0px;
     display: none;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
 
@@ -355,15 +346,11 @@ h3 {
         padding-top: 80px;
         transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
         z-index: 0;
-        
-        
     }
     .menu li {
         display: block;
-       
-        
     }
-    .hamburger{
+    .hamburger {
         display: block;
         width: 30px;
         height: 30px;
@@ -371,8 +358,8 @@ h3 {
         top: 40px;
         right: 30px;
     }
-    .hamburger span{
-        background:#fff;
+    .hamburger span {
+        background: #fff;
         height: 3px;
         width: 100%;
         display: block;
@@ -389,9 +376,6 @@ h3 {
     .sub-menu {
         display: none;
     }
-   
-    
-    
     .elenco:hover {
         /*home,shop,assistenza*/
         color: burlywood;
@@ -405,9 +389,6 @@ h3 {
         z-index: 80;
         position: relative;
     }
-    
-    
-  
 }
 
 
@@ -474,7 +455,6 @@ h3 {
 .menu a {
     display: block;
     /*padding: 15px 30px;*/
-    text-decoration: none;
     color: black;
     transition: .3s;
 }
@@ -501,12 +481,9 @@ h3 {
 
 .panel-blue {
     width: 100%;
-   background: burlywood;
+    background: burlywood;
     padding-top: 100px;
     border: solid black 2px;
- 
-   
-    
 }
 
 .panel-blue__text {
@@ -516,8 +493,7 @@ h3 {
     text-align: justify;
     box-sizing: border-box;
     flex-wrap: wrap;
-    color:burlywood;
-   
+    color: burlywood;
 }
 
 .dot {
@@ -536,7 +512,6 @@ h3 {
 .dot:hover {
     background-color: burlywood;
     border: solid black 3px;
-    text-decoration: underline solid black 2px;
     text-decoration: bold solid black;
     transform: scale(1.05);
 }
@@ -568,6 +543,36 @@ h3 {
     font-size: 22px;
 }
 
+.tooltip {
+    opacity: 0;
+    padding: 6px;
+    background-color: burlywood;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -moz-transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+
+.dot:hover .tooltip {
+    filter: alpha(opacity=70);
+    opacity: .7;
+}
+
+.buttonbuy {
+    padding: 2px;
+    background: brg(0, 0, 0);
+    color: black;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    margin: 2px;
+    text-decoration: underline solid 2px;
+}
+
 @media (max-width: 768px) {
     .mt-sma-0 {
         margin-top: 0
@@ -575,17 +580,14 @@ h3 {
     .mb-sma-0 {
         margin-bottom: 0
     }
-}
-
-@media (max-width: 768px) {
-    .grid {
-        flex-wrap: wrap
+    .colreveal {
+        text-align: center;
+        margin-right: 10%;
     }
 }
 
 
 /*ACCEDI*/
-
 
 .VideoAccedi h3 {
     font-weight: bold;
@@ -651,17 +653,17 @@ h3 {
     z-index: 1;
     text-decoration: none;
 }
-.passdim a{color:burlywood}
+
+.passdim a {
+    color: burlywood
+}
 
 .passdim :hover {
     color: cornsilk;
     transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-   
-    
-}
+@media (max-width: 768px) {}
 
 .cont1 {
     border: solid 1px red;
@@ -712,13 +714,13 @@ h3 {
 }
 
 .box {
-    width: 32%;
+    width: 20%;
     text-align: initial;
     margin: auto;
     text-align: center;
     float: left;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .contatti p {
@@ -731,14 +733,15 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .poster__video {
+        width: 100%;
+    }
     .contatti {
         flex-wrap: wrap;
         height: auto;
-    }
-    .box {
         width: 100%;
     }
-    .poster__video {
+    .box {
         width: 100%;
     }
 }
