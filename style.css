@@ -488,7 +488,7 @@ h3 {
 
 .panel-blue {
     width: 100%;
-    background: burlywood;
+    background: rgb(223, 219, 165);
     padding-top: 100px;
     border: solid black 2px;
 }
