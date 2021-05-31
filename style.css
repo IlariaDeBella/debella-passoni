@@ -384,6 +384,8 @@ h3 {
     .elenco:hover {
         /*home,shop,assistenza*/
         transform: scale(1.1);
+        transition: all 0.01s ease-in-out;
+        
     }
     .VideoAccedi__content {
         border: 2px burlywood solid;
@@ -599,7 +601,9 @@ h3 {
     margin: 0 auto;
     z-index: 1;
     color: burlywood;
-    margin-top: 100px;
+   width: 100%;
+   margin-top: 200px;
+
 }
 
 .VideoAccedi ul {
@@ -616,7 +620,15 @@ h3 {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+
+
+    
 }
 
 .VideoAccedi::after {
@@ -629,6 +641,8 @@ h3 {
     left: 0;
     background-color: black;
     opacity: 0.5;
+    flex-wrap: wrap;
+
 }
 
 .VideoAccedi__content {
@@ -638,7 +652,11 @@ h3 {
     height: 200px;
     z-index: 1;
     position: relative;
+    width: 50%;
+    margin-bottom: 200px;
+   
 }
+
 
 #VideoAccedi {
     position: relative;
@@ -823,44 +841,17 @@ h3 {
 
 /*ASSISTENZA*/
 
-.immaginona {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.immaginona img {
-    width: 100%;
-    position: absolute;
-    left: 0;
+
+
+.videoassistenza h3 {
+    font-weight: bold;
     margin: 0 auto;
-    height: 500px;
-}
-
-.immaginona::after {
-    content: '';
-    width: 100%;
-    height: 500px;
-    display: block;
+    z-index: 1;
+    color: burlywood;
+    margin-top: 100px;
     position: absolute;
     top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.5;
-}
-
-.immaginona h3 {
-    color: burlywood;
-    z-index: 1;
-    background-image: url('img1assistenza.jpeg');
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    width: 100%;
 }
 
 .ricerca {
@@ -869,7 +860,10 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 50%;
-    position: relative;
+    position: absolute;
+  
+    
+    
 }
 
 .ricerca input[type="text"] {
@@ -882,10 +876,69 @@ h3 {
     border: burlywood solid 1px;
     border-radius: 40px;
     outline: none;
+ 
 }
 
 .ricerca button {
     background: burlywood;
 }
 
-@media (max-width: 768px) {}
+.videoassistenza {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+
+    
+}
+
+.videoassistenza::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+ 
+}
+
+.videoassistenza__content {
+    border: 2px burlywood solid;
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    z-index: 1;
+    position: relative;
+}
+
+#videoassistenza {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+ 
+}
+
+
+.servizi{
+    position: relative;
+   
+    display: inline-block;
+
+}
+.servizi img{
+    float: left;
+}
+
+.servizi img:hover{
+    transform: scale(1.1);
+}
+
+
