@@ -701,6 +701,53 @@ h3 {
     width: 100%;
 }
 
+.VideoIscriviti {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.VideoIscriviti::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.VideoIscriviti__content {
+    border: 2px burlywood solid;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#VideoIscriviti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+.VideoIscriviti__content ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.VideoIscriviti__content h3 {
+    color: burlywood;
+}
+
 
 /*CONTATTI*/
 
@@ -774,54 +821,7 @@ h3 {
 }
 
 
-/*ACCEDI*/
-
-.VideoIscriviti {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
-
-.VideoIscriviti::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.5;
-}
-
-.VideoIscriviti__content {
-    border: 2px burlywood solid;
-    margin: 0 auto;
-    width: 50%;
-    position: relative;
-    z-index: 1;
-}
-
-#VideoIscriviti {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
-}
-
-.VideoIscriviti__content ul {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.VideoIscriviti__content h3 {
-    color: burlywood;
-}
+/*ASSISTENZA*/
 
 .immaginona {
     width: 100%;
@@ -887,3 +887,5 @@ h3 {
 .ricerca button {
     background: burlywood;
 }
+
+@media (max-width: 768px) {}
