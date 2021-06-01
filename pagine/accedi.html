@@ -66,12 +66,12 @@
     </script>
 
     <div class="VideoAccedi">
-        <h3 class="med-text">hai già un account IG?</h3>
+        <h3 class="med-text reveal">hai già un account IG?</h3>
 
-        <div class="VideoAccedi__content">
-            <ul class="normal-text">indirizzo e-mail:<input type="text" name="indirizzo"></ul>
-            <ul class="normal-text">password:<input type="password"><button onclick="lavatrice()">login</button></ul>
-            <div class="passdim"><a href="../pagine/password.html">recupera password</a></div>
+        <div class="VideoAccedi__content reveal">
+            <ul class="normal-text reveal">indirizzo e-mail:<input type="text" name="indirizzo"></ul>
+            <ul class="normal-text reveal">password:<input type="password"><button onclick="lavatrice()">login</button></ul>
+            <div class="passdim reveal"><a href="../pagine/password.html">recupera password</a></div>
         </div>
 
         <video autoplay muted loop id="VideoIscriviti">
@@ -84,6 +84,29 @@
             document.write("azione avvenuta con successo, tornare nella home premendo la freccina in alto a sinistra");
 
         }
+    </script>
+    <script>
+        $(document).ready(function() {
+            /* Open Panel */
+            $(".hamburger").on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+        ScrollReveal().reveal('.reveal', {
+            distance: '100px',
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 400,
+        });
+
+        ScrollReveal().reveal('.zoom', {
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 200,
+            scale: 0.65,
+            mobile: false,
+        });
     </script>
 </body>
 

@@ -69,7 +69,7 @@
 
     <div class="panel-blue mt-3">
         <div class="grid">
-            <div class="col panel-blue__dots">
+            <div class="col panel-blue__dots reveal">
                 <div class="dot" style="background: url(../immagini/cipria.jpg) no-repeat center center; background-size: cover;">
                     <span class="tooltip">CIPRIA<div class="buttonbuy"><script type="text/javascript">
                         var stile = "top=10, left=10, width=250, height=200, status=no, menubar=no, toolbar=no scrollbars=no";
@@ -111,7 +111,7 @@
                     <a href="javascript:Popup('../pagine/acquisto.html')">BUY</a></div></span>
                 </div>
             </div>
-            <div class="col panel-blue__text">
+            <div class="col panel-blue__text reveal">
                 <div class="grid">
                     <div class="colreveal">
                         <h3 class="big-text tw">VISO</h3>
@@ -128,7 +128,7 @@
 
     <div class="panel-blue mt-3">
         <div class="grid">
-            <div class="col panel-blue__dots">
+            <div class="col panel-blue__dots reveal">
                 <div class="dot" style="background: url(../immagini/rossetto.jpg) no-repeat center center; background-size: cover;">
                     <span class="tooltip">ROSSETTO<div class="buttonbuy"><script type="text/javascript">
                         var stile = "top=10, left=10, width=250, height=200, status=no, menubar=no, toolbar=no scrollbars=no";
@@ -170,7 +170,7 @@
                     <a href="javascript:Popup('../pagine/acquisto.html')">BUY</a></div></span>
                 </div>
             </div>
-            <div class="col panel-blue__text">
+            <div class="col panel-blue__text reveal">
                 <div class="grid">
                     <div class="colreveal">
                         <h3 class="big-text tw">LABBRA</h3>
@@ -187,7 +187,7 @@
 
     <div class="panel-blue mt-3">
         <div class="grid">
-            <div class="col panel-blue__dots">
+            <div class="col panel-blue__dots reveal">
                 <div class="dot" style="background: url(../immagini/mascara.jpg) no-repeat center center; background-size: cover;">
                     <span class="tooltip">MASCARA<div class="buttonbuy"><script type="text/javascript">
                         var stile = "top=10, left=10, width=250, height=200, status=no, menubar=no, toolbar=no scrollbars=no";
@@ -229,7 +229,7 @@
                     <a href="javascript:Popup('../pagine/acquisto.html')">BUY</a></div></span>
                 </div>
             </div>
-            <div class="col panel-blue__text">
+            <div class="col panel-blue__text reveal">
                 <div class="grid">
                     <div class="colreveal">
                         <h3 class="big-text tw">OCCHI</h3>
@@ -243,7 +243,7 @@
     </div>
 
     <div class="spazio"></div>
-    <div class="join">
+    <div class="join reveal">
         <p><a href="../pagine/accedi.html" class="join"># Join the IG Makeup Community</a></p>
     </div>
     <div class="spazio"></div>
@@ -260,6 +260,29 @@
             <li><a href="https://www.pinterest.it/">Pinterest</a></li>
         </ul>
     </div>
+    <script>
+        $(document).ready(function() {
+            /* Open Panel */
+            $(".hamburger").on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+        ScrollReveal().reveal('.reveal', {
+            distance: '100px',
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 400,
+        });
+
+        ScrollReveal().reveal('.zoom', {
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 200,
+            scale: 0.65,
+            mobile: false,
+        });
+    </script>
 </body>
 
 </html>

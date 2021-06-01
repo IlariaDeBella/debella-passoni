@@ -383,6 +383,7 @@ h3 {
     transform: scale(1.1);
     color: rgba(216, 162, 91, 0.377);
     transition: all 0.1s ease-in-out;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #img_slider {
@@ -832,7 +833,9 @@ h3 {
 .contatti h3 {
     display: inline-flex;
     margin-left: 30px;
-    color: rgba(216, 162, 91, 0.377);
+    color: burlywood;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 @media (max-width: 768px) {
@@ -883,6 +886,7 @@ h3 {
     margin-top: 100px;
     position: absolute;
     top: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .ricerca {
