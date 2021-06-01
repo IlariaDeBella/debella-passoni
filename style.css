@@ -164,7 +164,7 @@ h3 {
     width: 50px;
     height: 50px;
     background: none;
-    border: solid 2px burlywood;
+    border: solid 2px  rgba(216, 162, 91, 0.377);
     border-radius: 25px;
     font-size: 40px;
     color: black;
@@ -302,7 +302,7 @@ h3 {
 
 .social li a:hover {
     transform: scale(1.1);
-    color: burlywood;
+    color:  rgba(216, 162, 91, 0.377);
     transition: all 0.1s ease-in-out;
 }
 
@@ -837,8 +837,8 @@ h3 {
 .videoassistenza h3 {
     font-weight: bold;
     margin: 0 auto;
-    z-index: 1;
-    color: burlywood;
+    z-index: 2;
+    color:   burlywood;
     margin-top: 100px;
     position: absolute;
     top: 0;
@@ -859,14 +859,14 @@ h3 {
     padding-right: 60px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.3);
-    color: burlywood;
-    border: burlywood solid 1px;
+    color:  burlywood;
+    border:  burlywood 1px solid;
     border-radius: 40px;
     outline: none;
 }
 
 .ricerca button {
-    background: burlywood;
+    background:  burlywood;
 }
 
 .videoassistenza {
@@ -892,7 +892,7 @@ h3 {
 }
 
 .videoassistenza__content {
-    border: 2px burlywood solid;
+    border: 2px  burlywood solid;
     margin: 0 auto;
     width: 70%;
     height: 200px;
