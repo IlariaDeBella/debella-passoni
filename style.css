@@ -380,6 +380,8 @@ h3 {
     }
     .sub-menu {
         display: none;
+        align-items: center;
+        justify-content: center;
     }
     .elenco:hover {
         /*home,shop,assistenza*/
@@ -808,6 +810,7 @@ h3 {
         flex-wrap: wrap;
         margin-left: 0;
         padding: 0;
+        margin-left: 50px;
     }
     .contatti h3 {
         width: 50%;
@@ -822,6 +825,9 @@ h3 {
     }
     .social {
         width: 100%;
+    }
+    .footer {
+        margin-left: 50px;
     }
 }
 
