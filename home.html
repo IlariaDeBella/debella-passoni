@@ -45,7 +45,7 @@
         </ul>
 
         <div class="cta">
-            <a href="pagine/accedi.html" class="button">Accedi</a>
+            <a href="pagine/accedi.html" class="buttona">Accedi</a>
         </div>
         <div class="hamburger">
             <span></span>
@@ -59,8 +59,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
 
 
-    
-  <script>
+
+    <script>
         $(document).ready(function() {
             /* Open Panel */
             $(".hamburger").on('click', function() {
@@ -68,11 +68,20 @@
             });
 
         });
-        ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+        ScrollReveal().reveal('.reveal', {
+            distance: '100px',
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 600
+        });
 
-        ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
-
-        
+        ScrollReveal().reveal('.zoom', {
+            duration: 1500,
+            easing: 'cubic-bezier(.215, .61, .355, 1)',
+            interval: 200,
+            scale: 0.65,
+            mobile: false
+        });
     </script>
 
     <div class="spessore-menu"></div>

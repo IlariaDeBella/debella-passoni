@@ -41,7 +41,7 @@
 
 
         <div class="cta">
-            <a href="../pagine/accedi.html" class="button">Accedi</a>
+            <a href="../pagine/accedi.html" class="buttona">Accedi</a>
         </div>
         <div class="hamburger">
             <span></span>
@@ -53,36 +53,41 @@
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
-        $( document ).ready(function(){
-             /* Open Panel */
-             $( ".hamburger" ).on('click', function() {
-             $(".menu").toggleClass("menu--open");
-             });
+        $(document).ready(function() {
+            /* Open Panel */
+            $(".hamburger").on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
 
         });
     </script>
 
 
-    
+
     <div class="VideoIscriviti">
-    
+
         <div class="VideoIscriviti__content">
-            <ul><h3 class="normal-text">nome:</h3><input type="text" name="indirizzo" ></ul>
-            <ul><h3 class="normal-text">cognome:</h3><input type="text"></ul>
-            <ul><h3 class="normal-text">indirizzo e-mail:</h3><input type="text" name="indirizzo" ></ul>
-            <ul><h3 class="normal-text">password:</h3><input type="password"><button onclick="lavatrice()">login</button></ul>
+            <ul>
+                <h3 class="normal-text">nome:</h3><input type="text" name="indirizzo"></ul>
+            <ul>
+                <h3 class="normal-text">cognome:</h3><input type="text"></ul>
+            <ul>
+                <h3 class="normal-text">indirizzo e-mail:</h3><input type="text" name="indirizzo"></ul>
+            <ul>
+                <h3 class="normal-text">password:</h3><input type="password"><button onclick="lavatrice()">login</button></ul>
         </div>
         <video autoplay muted loop id="VideoIscriviti">
             <source src="../immagini/VideoIscriviti.mp4" type="video/mp4">
           </video>
     </div>
     <script>
-        function lavatrice(){
+        function lavatrice() {
             document.write("azione avvenuta con successo, tornare nella home premendo la freccina in alto a sinistra");
-        
-        }</script>
 
-    
+        }
+    </script>
+
+
 
 </body>
 
