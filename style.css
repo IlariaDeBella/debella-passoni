@@ -680,11 +680,12 @@ h3 {
 
 .cont1 {
     float: left;
-    width: 40%;
+    width: 45%;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
 }
 
 .cont1 ul {
@@ -699,12 +700,40 @@ h3 {
     align-items: center;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    float: right;
 }
 
 .cont2 ul {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
+}
+@media (max-width: 777px) {
+   
+    .cont1 {
+        float: left;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .cont2 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        float: right;
+    }
+    
 }
 
 .VideoIscriviti {
